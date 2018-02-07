@@ -5,6 +5,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<head>
+
     <link rel="shortcut icon" href="/images/logo.ico" type="image/x-icon" /> 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112099523-1"></script>
@@ -197,6 +198,12 @@
     .intrinsic-container-16x9 {
         padding-bottom: 56.25%;
     }
+
+    .intrinsic-container-16x9 {
+        padding-bottom: 56.25%;
+    }
+
+
  
         /* 4x3 Aspect Ratio */
     .intrinsic-container-4x3 {
@@ -210,6 +217,16 @@
         width: 100%;
         height:100%;
     }    
+
+
+.wrapper         {width:100%;height:100%;margin:0 auto;background:#CCC}
+.h_iframe        {position:relative;}
+.h_iframe .ratio {display:block;width:100%;height:auto;}
+.h_iframe iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
+
+
+
+
 	</style>
 	<!-- End demo purposes only -->
 
@@ -238,7 +255,7 @@
 		            <!-- <li><a href="#" data-nav-section="work"><span>Work</span></a></li> -->
 		            <li><a href="#" data-nav-section="Showcase"><span>Showcases</span></a></li>
 		            <li><a href="#" data-nav-section="services"><span>Services</span></a></li>
-		            <!-- <li><a href="#" data-nav-section="about"><span>About</span></a></li> -->
+		            <li><a href="#" data-nav-section="about"><span>Pricing</span></a></li>
 		            <li><a href="#" data-nav-section="contact"><span>Contact</span></a></li>
 		          </ul>
 		        </div>
@@ -430,16 +447,42 @@
 					<h2 class="to-animate">Showcases</h2>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 subtext to-animate">
-							<h3>Here is a sneak peek of our work <br> You can view this on a computer browser or on a mobile phone <br> If you have a VR headset or know someone who does, check this out in VR!</h3>
+							<h3>Here is a sneak peek of our work</h3>
+							<hr>
+							<h3>Virtual Tour</h3>
+							<p> You can view this on a computer browser or on a mobile phone <br> If you have a VR headset or know someone who does, check this out in VR!</p>
 						</div>
 					</div>
-					<div class="intrinsic-container intrinsic-container-16x9">
+					<!-- <div class="intrinsic-container intrinsic-container-16x9">
                         <iframe  src="https://www.transported.co/t/fO9UHfQR?embeddable=true" frameborder="0" scrolling="no" allowfullscreen ></iframe>
-                    </div>
-                    <br>
-                    <div class="intrinsic-container intrinsic-container-16x9">
+                    </div> -->
+                    <!-- <div class="intrinsic-container intrinsic-container-16x9">
                         <iframe src="http://www.transported.co/t/UyydteY-?embeddable=true" frameborder="0" scrolling="no" allowfullscreen ></iframe>
+                    </div> -->
+                    <div class="intrinsic-container intrinsic-container-16x9">
+                        <iframe src="http://www.transported.co/t/K3EXR7AN?embeddable=true" frameborder="0" scrolling="no" allowfullscreen ></iframe>
                     </div>
+                    <div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<hr>
+							<br>
+							<br>
+							<h3>Professional Photography</h3>
+							<p> In additional to virtual reality tours, we offer professional photography for houses and venues. You get 30-50 photos within a couple of days!</p>
+						</div>
+					</div>
+					<div class="">
+                        
+                    </div>
+                    <div class="wrapper">
+					    <div class="h_iframe">
+					        <!-- a transparent image is preferable -->
+					        <img class="ratio"  src="http://placehold.it/16x9"/>
+					        <iframe  src="just_pics.html" frameborder="0" scrolling="no" allowfullscreen ></iframe>
+					    </div>
+					</div>
+					
+
 				</div>
 			</div>
 			<!-- <div class="row">
@@ -531,14 +574,15 @@
 		</div>
 	</section>
 	
-	<!-- <section id="fh5co-about" data-section="about">
+	<section id="fh5co-about" data-section="about">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
-					<h2 class="to-animate">About</h2>
+					<h2 class="to-animate">Pricing</h2>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 subtext to-animate">
-							<h3>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h3>
+							<h3>We offer very competitive pricing!<br>
+							Get in touch now to get a free virtual tour on your first house!</h3>
 						</div>
 					</div>
 				</div>
@@ -546,46 +590,61 @@
 			<div class="row">
 				<div class="col-md-4">
 					<div class="fh5co-person text-center to-animate">
-						<figure><img src="images/person1.jpg" alt="Image"></figure>
-						<h3>Jean Smith</h3>
-						<span class="fh5co-position">Web Designer</span>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<!-- <figure><img src="images/person1.jpg" alt="Image"></figure> -->
+						<h3>2000 sq. ft or less</h3>
+						<!-- <span class="fh5co-position">Web Designer</span> -->
+						<br>
+						<p>
+							Virtual Tour $100 CAD
+						<br>
+							Professional Photography $80 CAD (30-50 photos)
+						</p>
 						<ul class="social social-circle">
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
+							<li><a href="#"><i class="icon-camera"></i></a></li>
+							<!-- <li><a href="#"><i class="icon-facebook"></i></a></li> -->
+							<!-- <li><a href="#"><i class="icon-dribbble"></i></a></li> -->
 						</ul>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="fh5co-person text-center to-animate">
-						<figure><img src="images/person2.jpg" alt="Image"></figure>
-						<h3>Rob Smith</h3>
-						<span class="fh5co-position">Web Developer</span>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<!-- <figure><img src="images/person2.jpg" alt="Image"></figure> -->
+						<h3>2000 sq. ft to 3000 sq. ft</h3>
+						<!-- <span class="fh5co-position">Web Developer</span> -->
+						<br>
+						<p>
+							Virtual Tour $130 CAD
+						<br>
+							Professional Photography $90 CAD (30-50 photos)
+						</p>
 						<ul class="social social-circle">
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-github"></i></a></li>
+							<li><a href="#"><i class="icon-camera"></i></a></li>
+							<!-- <li><a href="#"><i class="icon-facebook"></i></a></li> -->
+							<!-- <li><a href="#"><i class="icon-github"></i></a></li> -->
 						</ul>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="fh5co-person text-center to-animate">
-						<figure><img src="images/person3.jpg" alt="Image"></figure>
-						<h3>Larry Ben</h3>
-						<span class="fh5co-position">Web Designer</span>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<!-- <figure><img src="images/person3.jpg" alt="Image"></figure> -->
+						<h3>3000 sq. ft or more</h3>
+						<!-- <span class="fh5co-position">Web Designer</span> -->
+						<br>
+						<p>
+							Virtual Tour $150 CAD
+						<br>
+							Professional Photography $100 CAD (30-50 photos)
+						</p>
 						<ul class="social social-circle">
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
+							<li><a href="#"><i class="icon-camera"></i></a></li>
+							<!-- <li><a href="#"><i class="icon-facebook"></i></a></li> -->
+							<!-- <li><a href="#"><i class="icon-dribbble"></i></a></li> -->
 						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section> -->
+	</section>
 	
 	<section id="fh5co-counters" style="background-image: url(images/full_image_5.jpg);" data-stellar-background-ratio="0.5">
 		<div class="fh5co-overlay"></div>
